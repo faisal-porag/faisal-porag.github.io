@@ -97,22 +97,61 @@
     object-fit: cover;
 }
 
+.zoom:hover {
+	transform: scale(1.1); /* Zoom in by 10% on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
 h1.prof-font{
     font-family: 'MyCustomFont', sans-serif;
 }
 
+
+/* ----------------------------- */
+/* FOOTER             PART */
+/* ----------------------------- */
+
+.site-footer {
+	background: linear-gradient(45deg, #1c1c1c, #b3b3b3);
+	color: #818181;
+	padding: 20px 0;
+}
+.site-footer .footer-contact-infos h5 {
+	color: #ffffff;
+}
+.site-footer .footer-contact-infos span {
+	color: #ffffff;
+}
 .site-footer .row {
-    position: relative;
+	position: relative;
 }
 
 .site-footer .row::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 48%; /* Adjust positioning of the vertical line */
-    border-left: 1px solid #818181; /* Vertical line style */
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 48%; /* Adjust positioning of the vertical line */
+	border-left: 1px solid #818181; /* Vertical line style */
 }
+@media (max-width: 768px) {
+	.site-footer {
+		background: linear-gradient(45deg, #2a2a2a, #4f4f4f); /* Change gradient color for smaller screens */
+	}
+	.site-footer .row::before {
+		display: none; /* Remove vertical line for smaller screens */
+	}
+	.site-footer .footer-contact-infos span,
+	.site-footer .footer-contact-infos p {
+		color: #ffffff; /* Ensure text remains visible on the dark background */
+	}
+	.site-footer .row > div {
+		margin-bottom: 20px;
+		border: none; /* Ensure there are no vertical lines */
+	}
+}
+
+/* END FOOTER  */
 
 ul.other-skills-cs{
 	margin: 17px;
