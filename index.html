@@ -13,26 +13,25 @@
 	<meta name="author" content="Faisal Porag">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link href="https://fonts.googleapis.com/css2?family=Playwrite+RO:wght@100..400&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/aos.css">
-	<link rel="stylesheet" href="css/tooplate-gymso-style.css">
 
 	<link rel="stylesheet" href="css/persona_css.css">
 
 </head>
 
-<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+<body data-spy="scroll" data-target="#navbarNav" data-offset="90">
 
 	<!-- MENU BAR -->
-	<nav class="navbar navbar-expand-lg fixed-top">
+	<nav class="navbar navbar-expand-lg fixed-top premium-nav" id="mainNav">
 		<div class="container">
 
-			<a class="navbar-brand" href="index.html"><i class="fa fa-user"></i> <span class="heading-title-home"> FAISAL </span> </a>
+			<a class="navbar-brand" href="index.html"><span class="brand-mark">FP</span> FAISAL PORAG</a>
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
 				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,25 +39,30 @@
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav ml-lg-auto">
+				<ul class="navbar-nav ml-lg-auto align-items-lg-center">
 					<li class="nav-item">
-						<a href="#home" class="nav-link smoothScroll"><i class="fa fa-home"></i><span class="heading-title-home"> Home </span></a>
+						<a href="#home" class="nav-link smoothScroll"><i class="fa fa-home"></i> Home </a>
 					</li>
 
 					<li class="nav-item">
-						<a href="#about" class="nav-link smoothScroll"><i class="fa fa-user"></i> <span class="heading-title-home"> About Me </span></a>
+						<a href="#about" class="nav-link smoothScroll"><i class="fa fa-user"></i> About Me </a>
 					</li>
 
 					<li class="nav-item">
-						<a href="#edu" class="nav-link smoothScroll"><i class="fa fa-graduation-cap"></i> <span class="heading-title-home"> Education </span></a>
+						<a href="#edu" class="nav-link smoothScroll"><i class="fa fa-graduation-cap"></i> Education </a>
 					</li>
 
 					<li class="nav-item">
-						<a href="#exp" class="nav-link smoothScroll"><i class="fa fa-briefcase"></i> <span class="heading-title-home"> Job Experience </span> </a>
+						<a href="#exp" class="nav-link smoothScroll"><i class="fa fa-briefcase"></i> Experience </a>
 					</li>
 
 					<li class="nav-item">
-						<a href="#class" class="nav-link smoothScroll"><i class="fa fa-certificate"></i> <span class="heading-title-home"> Courses & Certificates </span> </a>
+						<a href="#class" class="nav-link smoothScroll"><i class="fa fa-certificate"></i> Certificates </a>
+					</li>
+
+					<li class="nav-item">
+						<a href="https://drive.google.com/file/d/1QX63mUqFWwiDGXGmJIXDDZ_9eQF1vzse/view?usp=drive_link&name=faisal_porag"
+							class="btn-premium nav-cta" download><i class="fa fa-download"></i> Resume</a>
 					</li>
 
 					<!-- ADD MORE ... -->
@@ -70,76 +74,98 @@
 	</nav>
 
 
-	<section class="h-profile d-flex flex-column justify-content-center align-items-center" id="home">
-
-		<div class="bg-overlay"></div>
+	<!-- HERO SECTION -->
+	<section class="h-profile" id="home">
 
 		<div class="container">
-			<div class="row">
+			<div class="row align-items-center">
 
-				<div class="col-lg-8 col-md-10 mx-auto col-12">
-					<div class="h-profile-text mt-5 text-center">
+				<div class="col-lg-7 col-12 text-center text-lg-left" data-aos="fade-right">
+					<span class="hero-eyebrow"><span class="dot"></span> Assalamu'alaikum! Welcome to my professional space</span>
 
-						<h6 style="color: #ede5e5;" class="copy-right-signature">Assalamu'alaikum! Welcome to my professional space</h6>
+					<h1 class="prof-font">I'm <span class="gradient-text">Faisal Porag</span></h1>
 
-						<h1 class="text-white-custom prof-font"> <span class="heading-title-home">I'm Faisal Porag</span> </h1>
-						<h6 style="color: #ede5e5;" class="copy-right-signature">Step into my realm! This site offers an in-depth look at my projects, insights, and career journey.</h6>
+					<p class="hero-role">Sr. Software Engineer, Lead <span>@ GoZayaan</span></p>
 
-						<a href="#feature" class="btn custom-btn mt-3">Find My Resume</a>
+					<p class="hero-desc mx-auto mx-lg-0">Step into my realm! This site offers an in-depth look at my projects, insights, and career journey.</p>
 
-						<a href="#about" class="btn custom-btn bordered mt-3">learn more</a>
+					<div class="hero-cta-row justify-content-center justify-content-lg-start">
+						<a href="https://drive.google.com/file/d/1QX63mUqFWwiDGXGmJIXDDZ_9eQF1vzse/view?usp=drive_link&name=faisal_porag" class="btn-premium" download><i class="fa fa-download"></i> Download My Resume</a>
+						<a href="#about" class="btn-premium-outline smoothScroll">Learn More</a>
+					</div>
+				</div>
 
+				<div class="col-lg-5 col-12" data-aos="fade-left">
+					<div class="hero-photo-wrap">
+						<div class="hero-photo-ring"></div>
+						<div class="hero-photo">
+							<img src="images/my_self.jpg" alt="Faisal Porag profile photo">
+						</div>
+						<span class="hero-photo-badge"><span class="dot"></span>Currently @ GoZayaan</span>
 					</div>
 				</div>
 
 			</div>
 		</div>
+
+		<a href="#feature" class="scroll-cue smoothScroll" aria-label="Scroll down"><i class="fa fa-chevron-down"></i></a>
 	</section>
 
 
 	<!-- FEATURE SECTION -->
 	<section class="feature" id="feature" data-aos="fade-up">
 		<div class="container">
-			<div class="row">
+			<div class="row align-items-center">
 
-				<div class="d-flex flex-column justify-content-center ml-lg-auto mr-lg-6 col-lg-6 col-md-6 col-12">
-					<h3 class="mb-3 text-white-custom">Interested in connecting with me?</h3>
+				<div class="col-lg-6 col-12 mb-5 mb-lg-0 text-center text-lg-left">
+					<h3 class="feature-heading">Interested in connecting with me?</h3>
 
-					<span class="mb-4 text-white-custom">Please contact me through the following channels </span>
-					<ul class="social-icon text-center">
-						<li><a style="font-size: 25px;" href="https://github.com/faisal-porag" class="fa fa-github github-color"></a>
+					<span class="feature-sub">Please contact me through the following channels</span>
+					<ul class="social-icon-premium justify-content-center justify-content-lg-start">
+						<li><a href="https://github.com/faisal-porag" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa fa-github"></i></a>
 						</li>
-						<li><a style="font-size: 25px;" href="https://www.linkedin.com/in/faisal-porag-fpdev/" class="fa fa-linkedin linkedin-color"></a>
+						<li><a href="https://www.linkedin.com/in/faisal-porag-fpdev/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
 						</li>
 					</ul>
 					<a href="https://drive.google.com/file/d/1QX63mUqFWwiDGXGmJIXDDZ_9eQF1vzse/view?usp=drive_link&name=faisal_porag"
-						class="btn custom-btn bg-color mt-3" download>Download My Resume
+						class="btn-premium mt-3" download><i class="fa fa-download"></i> Download My Resume
 					</a>
 				</div>
 
-				<div class="mr-lg-auto mt-3 col-lg-6 col-md-6 col-12">
-					<div class="about-working-hours text-center">
-						<div>
-
-							<h4 class="text-white-custom footer-contact-infos">Email Address</h4>
-							<div class="inline-text">
-								<span class="text-white-custom"><i class="fa fa-envelope-o mr-1"></i>porag2619@gmail.com</span>
-								<span class="colored-bar">|</span>
-								<span class="text-white-custom"><i class="fa fa-envelope-o mr-1"></i>faisal.porag@yahoo.com</span>
-							</div>
-
-							<h4 class="mt-3 text-white-custom footer-contact-infos">Contact No</h4>
-							<div class="inline-text">
-								<span class="text-white-custom" ><i class="fa fa-phone mr-1"></i> +88 01617-392369</span>
-								<span class="colored-bar">|</span>
-								<span class="text-white-custom" ><i class="fa fa-phone mr-1"></i> +88 01622-310751</span>
-							</div>
+				<div class="col-lg-6 col-12">
+					<div class="contact-card">
+						<div class="contact-row">
+							<span class="icon-box"><i class="fa fa-envelope-o"></i></span>
+							<span class="contact-text">
+								<span class="contact-label">Email Address</span>
+								<span class="contact-value">porag2619@gmail.com</span>
+							</span>
+						</div>
+						<div class="contact-row">
+							<span class="icon-box"><i class="fa fa-envelope-o"></i></span>
+							<span class="contact-text">
+								<span class="contact-label">Alternate Email</span>
+								<span class="contact-value">faisal.porag@yahoo.com</span>
+							</span>
+						</div>
+						<div class="contact-row">
+							<span class="icon-box"><i class="fa fa-phone"></i></span>
+							<span class="contact-text">
+								<span class="contact-label">Contact No</span>
+								<span class="contact-value">+88 01617-392369</span>
+							</span>
+						</div>
+						<div class="contact-row">
+							<span class="icon-box"><i class="fa fa-phone"></i></span>
+							<span class="contact-text">
+								<span class="contact-label">Alternate Contact</span>
+								<span class="contact-value">+88 01622-310751</span>
+							</span>
 						</div>
 					</div>
 				</div>
-			</div>
 
-		</div>
+			</div>
 		</div>
 	</section>
 
@@ -147,179 +173,191 @@
 	<!-- ABOUT ME SECTION -->
 	<section class="about section" id="about">
 		<div class="container" data-aos="fade-up">
-			<h3 class="mb-4 text-center"> <span class="heading-title-home" style="text-transform: uppercase;">About Me</span> </h3>
+			<span class="section-eyebrow">Get To Know Me</span>
+			<h3 class="section-title">About Me</h3>
 
-			<div class="row">
-				<div class="mt-lg-2 mb-lg-0 mb-4 col-lg-12 col-md-12 col-12">
+			<div class="row align-items-center">
+				<div class="col-lg-8 col-12" style="text-align: justify">
 
 					<p>
-						Hi! I am <strong>Faisal Porag</strong>. As an accomplished Computer Science and Engineering professional, 
-						I have established a distinguished career in the tech industry. 
-						Currently, I hold the position of <span><strong>Sr. Software Engineer, Lead</strong></span> at <strong>GoZayaan</strong>.
+						Hi! I am <strong>Faisal Porag</strong>. As an accomplished Computer Science and Engineering professional,
+						I have established a distinguished career in the tech industry.
+						Currently, I hold the position of <strong>Sr. Software Engineer, Lead</strong> at <strong>GoZayaan</strong>.
 						With a wealth of experience in both industry and academia, I am dedicated to driving technological
 						innovation and achieving exceptional results.
 					</p>
 
-					<div class="row">
-						<div class="col-lg-8 pt-4 pt-lg-0 content" style="text-align: justify">
-
-							<p>
-								Throughout my career, I've had the privilege of leading cross-functional teams through 
-								complex development cycles, from conceptualization to deployment. My expertise extends 
-								to architecting robust systems that meet stringent performance and reliability standards, 
-								while also optimizing for maintainability and scalability. I thrive in agile environments, 
-								where my ability to adapt quickly and collaborate effectively has been instrumental in 
-								delivering solutions that exceed client expectations.
-							</p>
-
-							<p>
-								I am deeply committed to continuous learning, staying abreast of emerging technologies, 
-								and adapting quickly to industry trends. My proactive approach to skill development and 
-								mentorship has empowered teams to innovate and achieve excellence in every project. 
-								I am eager to bring my expertise to a new challenge where I can contribute to shaping 
-								the future of an organization committed to pushing the boundaries of technology and achieving sustainable growth.
-							</p>
-
-							<p>
-								Beyond technical proficiency, I am passionate about fostering an environment where knowledge 
-								sharing and skill development propel team success. I am excited about the prospect of 
-								leveraging my skills to contribute to innovative projects that push the boundaries of 
-								technology and drive sustainable growth.
-							</p>
-
-						</div>
-						<div class="col-lg-4">
-							<!-- <img src="images/my_self.JPG" class="img-fluid mt-0 rounded-image zoom" alt="my-profile-photo"> -->
-							<img src="images/my_self.jpg" class="img-fluid mt-0 rounded-image zoom" alt="my-profile-photo">
-						</div>
-					</div>
+					<p>
+						Throughout my career, I've had the privilege of leading cross-functional teams through
+						complex development cycles, from conceptualization to deployment. My expertise extends
+						to architecting robust systems that meet stringent performance and reliability standards,
+						while also optimizing for maintainability and scalability. I thrive in agile environments,
+						where my ability to adapt quickly and collaborate effectively has been instrumental in
+						delivering solutions that exceed client expectations.
+					</p>
 
 					<p>
-						My diverse skill set and extensive experience make me a valuable asset to any team. 
-						I am committed to leveraging my hard work, dedication, and determination to 
+						I am deeply committed to continuous learning, staying abreast of emerging technologies,
+						and adapting quickly to industry trends. My proactive approach to skill development and
+						mentorship has empowered teams to innovate and achieve excellence in every project.
+						I am eager to bring my expertise to a new challenge where I can contribute to shaping
+						the future of an organization committed to pushing the boundaries of technology and achieving sustainable growth.
+					</p>
+
+					<p>
+						Beyond technical proficiency, I am passionate about fostering an environment where knowledge
+						sharing and skill development propel team success. I am excited about the prospect of
+						leveraging my skills to contribute to innovative projects that push the boundaries of
+						technology and drive sustainable growth.
+					</p>
+
+					<p>
+						My diverse skill set and extensive experience make me a valuable asset to any team.
+						I am committed to leveraging my hard work, dedication, and determination to
 						make significant contributions in the future.
 					</p>
 
 				</div>
-
+				<div class="col-lg-4 col-12" data-aos="fade-left">
+					<div class="about-photo-card">
+						<img src="images/my_self.jpg" alt="my-profile-photo">
+						<div class="about-photo-badge">
+							<div class="role">Sr. Software Engineer, Lead</div>
+							<div class="company">GoZayaan &middot; Dhaka, Bangladesh</div>
+						</div>
+					</div>
+				</div>
 			</div>
 
-			<hr style="margin-top:20px; margin-bottom:3px; color: #212529;">
 		</div>
 	</section>
 
 	<!-- EDUCATION SECTION -->
-	<section class="about section" id="edu">
+	<section class="edu section" id="edu">
 		<div class="container" data-aos="fade-up">
-			<h3 class="mb-4 text-center"> <span class="heading-title-home" style="text-transform: uppercase;">Education & Tech Skills</span> </h3>
+			<span class="section-eyebrow">Academics &amp; Toolbox</span>
+			<h3 class="section-title">Education &amp; Tech Skills</h3>
 
 			<div class="row">
-				<div class="mt-lg-2 mb-lg-0 mb-4 col-lg-12 col-md-12 col-12">
-					<div class="row">
-						<div class="col-lg-6 pt-4 pt-lg-0 content resume" style="text-align: justify">
-							<h3 class="mb-4 mt-4">Academic Qualification</h3>
-							<div class="resume-item">
-								<span> <b>MSc. in Computer Science &amp; Engineering</b></span> <br>
-								<span class="font-italic">2018 - 2019</span> <br>
-								<span class="font-italic">Jahangirnagar University</span> <br>
-								<span class="font-italic">Savar, Dhaka, Bangladesh</span> <br>
-								<span><b>CGPA : </b> <i>3.56</i> out of <i>4.00 </i></span>
-							</div>
-							<div class="resume-item">
-								<span> <b>BSc. in Computer Science &amp; Engineering</b></span> <br>
-								<span class="font-italic">Batch: 13-2</span> <br>
-								<span class="font-italic">American International University-Bangladesh (AIUB)</span> <br>
-								<span class="font-italic">Dhaka, Bangladesh</span> <br>
-								<span><b>CGPA : </b> <i>3.77</i> out of <i>4.00 </i></span>
-							</div>
-							<div class="resume-item">
-								<span> <b>Higher Secondary School Certificate (HSC) </b></span> <br>
-								<span class="font-italic">Batch-2011</span><br>
-								<span class="font-italic">Milestone College</span> <br>
-								<span class="font-italic">Dhaka, Bangladesh</span> <br>
-								<span><b>GPA : </b> <i>4.80</i> out of <i>5.00</i></span>
-							</div>
-							<div class="resume-item">
-								<span> <b>Secondary School Certificate (SSC) </b></span> <br>
-								<span class="font-italic">Batch-2009</span> <br>
-								<span class="font-italic">Aftab Uddin School & College</span> <br>
-								<span class="font-italic">Kishoreganj, Dhaka, Bangladesh</span> <br>
-								<span><b>GPA : </b> <i>5.00</i> out of <i>5.00</i></span>
-							</div>
+				<div class="col-lg-6 col-12" style="text-align: justify">
+					<h4 class="mb-4">Academic Qualification</h4>
 
-						</div>
+					<div class="edu-card">
+						<div class="degree">MSc. in Computer Science &amp; Engineering</div>
+						<span class="meta">
+							2018 - 2019<br>
+							Jahangirnagar University<br>
+							Savar, Dhaka, Bangladesh
+						</span>
+						<span class="score-pill"><i class="fa fa-star"></i> CGPA 3.56 out of 4.00</span>
+					</div>
 
-						<div class="col-lg-6" style="text-align: justify">
-							
-							<h3 class="mb-4 mt-4">Tech Skills</h3>
-							<div class="row">
-								<div class="col-lg-3 col-md-6 col-12">
-									<span class="font-weight-bold">Languages </span>
-								</div>
-								<div class="col-lg-9 col-md-6 col-12">
-									<span> Python, Go, JS, Node</span>
-								</div>
-							</div>
-							<hr style="margin-top:3px; margin-bottom:3px">
-							<div class="row">
-								<div class="col-lg-3 col-md-6 col-12">
-									<span class="font-weight-bold">Frameworks </span>
-								</div>
-								<div class="col-lg-9 col-md-6 col-12">
-									<span> Django, Gin, GORM, Chi, Node.js, Pytest</span>
-								</div>
-							</div>
-							<hr style="margin-top:3px; margin-bottom:3px">
-							<div class="row">
-								<div class="col-lg-3 col-md-6 col-12">
-									<span class="font-weight-bold">Databases </span>
-								</div>
-								<div class="col-lg-9 col-md-6 col-12">
-									<span> Postgres Sql, Mysql, MongoDB, Cassandra</span>
-								</div>
-							</div>
-							<hr style="margin-top:3px; margin-bottom:3px">
-							<div class="row">
-								<div class="col-lg-3 col-md-6 col-12">
-									<span class="font-weight-bold">Others </span>
-								</div>
-								<div class="col-lg-9 col-md-6 col-12">
-									<span>
-										<ul class="other-skills-cs">
-											<li>Kafka</li>
-											<li>RabbitMQ</li>
-											<li>gRPC</li>
-											<li>HTTP</li>
-											<li>Websockets</li>
-											<li>Time Management</li>
-											<li>Monolithic Architecture</li>
-											<li>Micro-Service Architecture</li>
-											<li>Version Control System (Git, GitLab)</li>
-											<li>Postman API Documentation</li>
-											<li>USSD System Design</li>
-											<li>3rd Party API Consume</li>
-											<li>Docker</li>
-											<li>Team Lead</li>
-										</ul>
-									</span>
-								</div>
-							</div>
-							<hr style="margin-top:3px; margin-bottom:3px">
-							<div class="row">
-								<div class="col-lg-3 col-md-6 col-12">
-									<span class="font-weight-bold">Operating System </span>
-								</div>
-								<div class="col-lg-9 col-md-6 col-12">
-									<span> Linux, Windows</span>
-								</div>
-							</div>
-						</div>
+					<div class="edu-card">
+						<div class="degree">BSc. in Computer Science &amp; Engineering</div>
+						<span class="meta">
+							Batch: 13-2<br>
+							American International University-Bangladesh (AIUB)<br>
+							Dhaka, Bangladesh
+						</span>
+						<span class="score-pill"><i class="fa fa-star"></i> CGPA 3.77 out of 4.00</span>
+					</div>
 
+					<div class="edu-card">
+						<div class="degree">Higher Secondary School Certificate (HSC)</div>
+						<span class="meta">
+							Batch-2011<br>
+							Milestone College<br>
+							Dhaka, Bangladesh
+						</span>
+						<span class="score-pill"><i class="fa fa-star"></i> GPA 4.80 out of 5.00</span>
+					</div>
+
+					<div class="edu-card">
+						<div class="degree">Secondary School Certificate (SSC)</div>
+						<span class="meta">
+							Batch-2009<br>
+							Aftab Uddin School &amp; College<br>
+							Kishoreganj, Dhaka, Bangladesh
+						</span>
+						<span class="score-pill"><i class="fa fa-star"></i> GPA 5.00 out of 5.00</span>
 					</div>
 
 				</div>
+
+				<div class="col-lg-6 col-12" style="text-align: justify">
+
+					<h4 class="mb-4">Tech Skills</h4>
+
+					<div class="skill-group">
+						<h6>Languages</h6>
+						<div class="skill-tags">
+							<span class="chip">Python</span>
+							<span class="chip">Go</span>
+							<span class="chip">JS</span>
+							<span class="chip">Node</span>
+						</div>
+					</div>
+
+					<div class="skill-group">
+						<h6>Frameworks</h6>
+						<div class="skill-tags">
+							<span class="chip">Django</span>
+							<span class="chip">Gin</span>
+							<span class="chip">GORM</span>
+							<span class="chip">Chi</span>
+							<span class="chip">Node.js</span>
+							<span class="chip">Pytest</span>
+						</div>
+					</div>
+
+					<div class="skill-group">
+						<h6>Databases</h6>
+						<div class="skill-tags">
+							<span class="chip">Postgres SQL</span>
+							<span class="chip">MySQL</span>
+							<span class="chip">MongoDB</span>
+							<span class="chip">Cassandra</span>
+						</div>
+					</div>
+
+					<div class="skill-group">
+						<h6>Others</h6>
+						<ul class="other-skills-cs">
+							<li>Kafka</li>
+							<li>RabbitMQ</li>
+							<li>gRPC</li>
+							<li>HTTP</li>
+							<li>Websockets</li>
+							<li>Time Management</li>
+							<li>Monolithic Architecture</li>
+							<li>Micro-Service Architecture</li>
+							<li>Version Control System (Git, GitLab)</li>
+							<li>Postman API Documentation</li>
+							<li>USSD System Design</li>
+							<li>3rd Party API Consume</li>
+							<li>Docker</li>
+							<li>Team Lead</li>
+							<li>GCP</li>
+							<li>Kubectl</li>
+							<li>K9s</li>
+							<li>GitHub Actions</li>
+							<li>Sentry</li>
+							<li>Notion</li>
+						</ul>
+					</div>
+
+					<div class="skill-group">
+						<h6>Operating System</h6>
+						<div class="skill-tags">
+							<span class="chip">Linux</span>
+							<span class="chip">Windows</span>
+						</div>
+					</div>
+
+				</div>
+
 			</div>
-			<hr style="margin-top:20px; margin-bottom:3px; color: #212529;">
+
 		</div>
 	</section>
 
@@ -327,356 +365,336 @@
 	<!-- EXP SECTION -->
 	<section class="exp section" id="exp">
 		<div class="container" data-aos="fade-up">
-			<h3 class="mb-4 text-center"><span class="heading-title-home" style="text-transform: uppercase;">Job Experience </span></h3>
-			<div class="row">
-				<div class="col-lg-12 col-12 text-center">
+			<span class="section-eyebrow">Career Path</span>
+			<h3 class="section-title">Job Experience</h3>
+
+			<div class="timeline">
+
+				<div class="timeline-item is-current">
+					<span class="timeline-dot"></span>
+					<div class="timeline-card">
+						<div class="timeline-card-head">
+							<div>
+								<h4 class="timeline-role">Sr. Software Engineer, Lead</h4>
+								<span class="timeline-company"><i class="fa fa-building"></i>GoZayaan &middot; Dhaka, Bangladesh</span>
+							</div>
+							<span class="date-pill is-current">April 1, 2026 &ndash; Present</span>
+						</div>
+
+						<ul class="timeline-list">
+							<li>
+								<strong>Domain Leadership:</strong>
+								Serving as an accomplished Domain Lead with deep expertise in architecting and delivering
+								large-scale, high-availability travel technology platforms, with a proven track record in
+								leading the development of airline booking systems, secure backend services, and scalable
+								microservice architectures that support complex, transaction-intensive environments with
+								reliability, performance, and operational excellence.
+							</li>
+							<li>
+								<strong>Booking &amp; Order Management Workflows:</strong>
+								Contributing to the development of flight booking, ticketing, cancellation, refund,
+								ancillaries, and order management workflows across multiple airline and travel integrations.
+							</li>
+							<li>
+								<strong>Airline/GDS/NDC Integrations:</strong>
+								Working extensively on airline/GDS/NDC integrations, including third-party vendor APIs, to
+								support seamless flight search, booking, pricing, ticket issuance, and post-booking operations.
+							</li>
+							<li>
+								<strong>Scalable Backend Design:</strong>
+								Designing scalable backend services and improving system reliability, booking accuracy,
+								and production stability.
+							</li>
+							<li>
+								<strong>Complex Travel Scenarios:</strong>
+								Supporting complex travel scenarios such as multi-passenger bookings, ancillaries, payment
+								flows, cancellation/void processes, and provider-specific business logic across integrated
+								airline systems.
+							</li>
+							<li>
+								<strong>Cross-Functional Collaboration:</strong>
+								Collaborating with cross-functional teams to deliver end-to-end travel solutions and
+								enhance operational workflows.
+							</li>
+						</ul>
+
+						<div class="tech-chip-row">
+							<span class="tech-chip-label">Core Technical Skills</span>
+							<span class="chip">Golang</span>
+							<span class="chip">Microservices</span>
+							<span class="chip">Airline/GDS/NDC Integration</span>
+							<span class="chip">REST API</span>
+							<span class="chip">Postgres</span>
+							<span class="chip">Redis</span>
+							<span class="chip">Docker</span>
+							<span class="chip">Distributed Systems</span>
+							<span class="chip">Payment Systems</span>
+							<span class="chip">Team Leadership</span>
+						</div>
+					</div>
 				</div>
-				<div class="mt-lg-2 mb-lg-0 mb-4 col-lg-12 col-md-12 col-12 resume">
-					<div class="resume-item">
-						<div class="row">
-							<div class="col-lg-9">
-								<h4> Sr. Software Engineer, Lead </h4>
+
+				<div class="timeline-item">
+					<span class="timeline-dot"></span>
+					<div class="timeline-card">
+						<div class="timeline-card-head">
+							<div>
+								<h4 class="timeline-role">Sr. Software Engineer, Lead</h4>
+								<span class="timeline-company"><i class="fa fa-building"></i>TechnoNext (US Bangla Group) &middot; Dhaka, Bangladesh</span>
 							</div>
-							<div class="col-lg-3" style="text-align: right">
-								<span class="font-italic" style="color:#2f8505"> <b>April 1, 2026 – Present </b></span>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-9">
-								<h4> GoZayaan </h4>
-							</div>
-							<div class="col-lg-3" style="text-align: right">
-								<span> Dhaka, Bangladesh </span>
-							</div>
+							<span class="date-pill">May 2, 2023 &ndash; April 30, 2026</span>
 						</div>
 
-						<div class="row mt-2">
-							<div class="col-lg-12">
-								<ul style="list-style-type:square; text-align: justify">
-									<li>
-										<strong>Domain Leadership:</strong>
-										Serving as an accomplished Domain Lead with deep expertise in architecting and delivering
-										large-scale, high-availability travel technology platforms, with a proven track record in
-										leading the development of airline booking systems, secure backend services, and scalable
-										microservice architectures that support complex, transaction-intensive environments with
-										reliability, performance, and operational excellence.
-									</li>
-									<li>
-										<strong>Booking & Order Management Workflows:</strong>
-										Contributing to the development of flight booking, ticketing, cancellation, refund,
-										ancillaries, and order management workflows across multiple airline and travel integrations.
-									</li>
-									<li>
-										<strong>Airline/GDS/NDC Integrations:</strong>
-										Working extensively on airline/GDS/NDC integrations, including third-party vendor APIs, to
-										support seamless flight search, booking, pricing, ticket issuance, and post-booking operations.
-									</li>
-									<li>
-										<strong>Scalable Backend Design:</strong>
-										Designing scalable backend services and improving system reliability, booking accuracy,
-										and production stability.
-									</li>
-									<li>
-										<strong>Complex Travel Scenarios:</strong>
-										Supporting complex travel scenarios such as multi-passenger bookings, ancillaries, payment
-										flows, cancellation/void processes, and provider-specific business logic across integrated
-										airline systems.
-									</li>
-									<li>
-										<strong>Cross-Functional Collaboration:</strong>
-										Collaborating with cross-functional teams to deliver end-to-end travel solutions and
-										enhance operational workflows.
-									</li>
-									<b>Core Technical Skills : </b>
-									<span>
-										Golang, Microservices, Airline/GDS/NDC Integration, REST API, Postgres, Redis, Docker,
-										Distributed Systems, Payment Systems, Team Leadership
-									</span>
-								</ul>
-							</div>
-						</div>
+						<ul class="timeline-list">
+							<li>
+								<strong>Professional Expertise:</strong>
+								I specialize in designing, developing, testing, and implementing high-performance, internet-based solutions —
+								encompassing web APIs, proprietary software applications, robust data security mechanisms, and end-to-end
+								infrastructure frameworks to ensure scalability, reliability, and maintainability.
+							</li>
+							<li>
+								<strong>System Architecture &amp; Microservices:</strong>
+								Designed and implemented scalable microservices architectures supporting real-time data processing,
+								distributed locking mechanisms, and asynchronous event-driven communication using Kafka and RabbitMQ.
+							</li>
+							<li>
+								<strong>API Integration:</strong>
+								Integrated multiple third-party (vendor) APIs into core business systems, improving operational efficiency
+								and enabling seamless interoperability across platforms and external services.
+							</li>
+							<li>
+								<strong>Secure Authentication Framework:</strong>
+								Architected and deployed a centralized authentication and authorization service with role-based and
+								menu-level permissions, incorporating Google 2FA and JWT-based authentication to strengthen
+								access control and system security.
+							</li>
+							<li>
+								<strong>Customer Verification &amp; Data Protection:</strong>
+								Developed a secure OTP-based verification system for user onboarding, ensuring encrypted OTP storage
+								and validation workflows compliant with industry-standard data protection and privacy requirements.
+							</li>
+							<li>
+								<strong>Distributed Locking &amp; Concurrency Management:</strong>
+								Implemented Redis-based distributed locking solutions to manage high-concurrency operations,
+								ensuring data consistency and integrity during parallel transactions and real-time updates.
+							</li>
+							<li>
+								<strong>Monitoring &amp; Observability:</strong>
+								Integrated Elastic APM for comprehensive tracing of Redis, PostgreSQL, and HTTP service performance,
+								and designed real-time monitoring dashboards to track latency, throughput, and error metrics
+								for proactive system optimization.
+							</li>
+							<li>
+								<strong>Collaboration &amp; Leadership:</strong>
+								Partnered closely with product managers, QA engineers, and design teams to deliver high-quality solutions.
+								Provided technical leadership, mentorship, and established best engineering practices to drive
+								continuous improvement and innovation.
+							</li>
+							<li>
+								<strong>Performance Optimization &amp; Reliability:</strong>
+								Enhanced database performance through query tuning, indexing, and caching strategies using Redis and PostgreSQL,
+								achieving significant improvements in response time, scalability, and system stability under high-traffic conditions.
+							</li>
+						</ul>
 
+						<div class="tech-chip-row">
+							<span class="tech-chip-label">Core Technical Skills</span>
+							<span class="chip">Microservices</span>
+							<span class="chip">Postgres</span>
+							<span class="chip">Mongo</span>
+							<span class="chip">Cassandra</span>
+							<span class="chip">GoLang</span>
+							<span class="chip">Apache Kafka</span>
+							<span class="chip">gRPC</span>
+							<span class="chip">Rest API</span>
+							<span class="chip">Docker</span>
+							<span class="chip">Git/GitLab</span>
+							<span class="chip">APM Log</span>
+							<span class="chip">Elastic</span>
+							<span class="chip">Distributed System</span>
+							<span class="chip">Redis</span>
+							<span class="chip">Distributed Lock</span>
+							<span class="chip">Python</span>
+							<span class="chip">SQA</span>
+							<span class="chip">Team Management</span>
+						</div>
 					</div>
-
-					<div class="resume-item">
-						<div class="row">
-							<div class="col-lg-9">
-								<h4> Sr. Software Engineer, Lead </h4>
-							</div>
-							<div class="col-lg-3" style="text-align: right">
-								<span class="font-italic" style="color:#bb6505"> <b>May 2, 2023 – April 30, 2026 </b></span>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-9">
-								<h4> TechnoNext (US Bangla Group) </h4>
-							</div>
-							<div class="col-lg-3" style="text-align: right">
-								<span> Dhaka, Bangladesh </span>
-							</div>
-						</div>
-
-						<div class="row mt-2">
-							<div class="col-lg-12">
-								<ul style="list-style-type:square; text-align: justify">
-									<li>
-                    <strong>Professional Expertise:</strong> 
-                    I specialize in designing, developing, testing, and implementing high-performance, internet-based solutions — 
-                    encompassing web APIs, proprietary software applications, robust data security mechanisms, and end-to-end 
-                    infrastructure frameworks to ensure scalability, reliability, and maintainability.
-                  </li>
-
-                  <li>
-                    <strong>System Architecture & Microservices:</strong> 
-                    Designed and implemented scalable microservices architectures supporting real-time data processing, 
-                    distributed locking mechanisms, and asynchronous event-driven communication using Kafka and RabbitMQ.
-                  </li>
-
-                  <li>
-                    <strong>API Integration:</strong> 
-                    Integrated multiple third-party (vendor) APIs into core business systems, improving operational efficiency 
-                    and enabling seamless interoperability across platforms and external services.
-                  </li>
-
-                  <li>
-                    <strong>Secure Authentication Framework:</strong> 
-                    Architected and deployed a centralized authentication and authorization service with role-based and 
-                    menu-level permissions, incorporating Google 2FA and JWT-based authentication to strengthen 
-                    access control and system security.
-                  </li>
-
-                  <li>
-                    <strong>Customer Verification & Data Protection:</strong> 
-                    Developed a secure OTP-based verification system for user onboarding, ensuring encrypted OTP storage 
-                    and validation workflows compliant with industry-standard data protection and privacy requirements.
-                  </li>
-
-                  <li>
-                    <strong>Distributed Locking & Concurrency Management:</strong> 
-                    Implemented Redis-based distributed locking solutions to manage high-concurrency operations, 
-                    ensuring data consistency and integrity during parallel transactions and real-time updates.
-                  </li>
-
-                  <li>
-                    <strong>Monitoring & Observability:</strong> 
-                    Integrated Elastic APM for comprehensive tracing of Redis, PostgreSQL, and HTTP service performance, 
-                    and designed real-time monitoring dashboards to track latency, throughput, and error metrics 
-                    for proactive system optimization.
-                  </li>
-
-                  <li>
-                    <strong>Collaboration & Leadership:</strong> 
-                    Partnered closely with product managers, QA engineers, and design teams to deliver high-quality solutions. 
-                    Provided technical leadership, mentorship, and established best engineering practices to drive 
-                    continuous improvement and innovation.
-                  </li>
-
-                  <li>
-                    <strong>Performance Optimization & Reliability:</strong> 
-                    Enhanced database performance through query tuning, indexing, and caching strategies using Redis and PostgreSQL, 
-                    achieving significant improvements in response time, scalability, and system stability under high-traffic conditions.
-                  </li>
-
-
-										<b>Core Technical Skills : </b>  
-										<span>
-											Microservices, Postgres, Mongo, Cassandra, GoLang, Apache Kafka, gRPC, Rest API, Docker, Git/GitLab, APM Log, Elastic,
-											Distributed System, Redis, Distributed Lock, Python, SQA, Team Management
-										</span>
-								</ul>
-							</div>
-						</div>
-						
-					</div>
-
-					<div class="resume-item">
-						<div class="row">
-							<div class="col-lg-9">
-								<h4> Software Engineer </h4>
-							</div>
-							<div class="col-lg-3" style="text-align: right">
-								<span class="font-italic" style="color:#bb6505"> <b>July 12, 2021 – April 30, 2023 </b></span>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-9">
-								<h4> upay | উপায় (UCB Fintech Company Limited) </h4>
-							</div>
-							<div class="col-lg-3" style="text-align: right">
-								<span> Dhaka, Bangladesh </span>
-							</div>
-						</div>
-						
-						<div class="row mt-2">
-							<div class="col-lg-12">
-								<ul style="list-style-type:square; text-align: justify">
-									<li>
-										Specializing as a software engineer, my primary endeavor is to innovate within the realm of
-										digital financial solutions, with a particular emphasis on the Upay app. I am committed to
-										delivering high-performance, secure, and intuitive software, fostering collaboration across teams
-										to drive continuous improvement and user-centric design.
-									</li>
-									<li>
-										I am responsible for designing and maintaining USSD services tailored for feature phone users,
-										collaborating closely with telecom giants like Base Migration and 121 Recharge with GP,
-										Banglalink, Robi/Airtel. By forging strong partnerships with these industry leaders, I ensure the
-										seamless integration and continuous improvement of our offerings.
-									</li>
-									<li>
-										I am spearheading the development of an ISP Aggregator system for facilitating bill payments
-										for Internet Service Providers (ISPs), utilizing Golang as the primary programming language.
-										This initiative involves creating a robust platform to streamline and optimize the bill payment
-										process for ISPs, contributing to operational efficiency and customer satisfaction within the
-										telecommunications industry.
-									</li>
-									<li>
-										Employing Golang, Python, Django, Redis, PostgreSQL, GitLab, GitHub, Docker, and other
-										cutting- edge platforms, I specialize in integrating third-party APIs seamlessly.
-									</li>
-										<b>Core Technical Skills : </b>  
-										<span>
-											Python, Django, Django REST Framework, Postgres, Cassandra,
-											Golang, Chi, Gin, Pandas, Jira, NumPy, Telco, Docker, USSD
-										</span>
-								</ul>
-							</div>
-						</div>
-						
-					</div>
-
-					<div class="resume-item">
-						<div class="row">
-							<div class="col-lg-9">
-								<h4> Software Engineer (Promoted: Asst. Manager) </h4>
-							</div>
-							<div class="col-lg-3" style="text-align: right">
-								<span class="font-italic" style="color:#bb6505"> <b>Aug 1, 2018 – July 09, 2021 </b></span>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-9">
-								<h4> Bdjobs.com Limited </h4>
-							</div>
-							<div class="col-lg-3" style="text-align: right">
-								<span> Dhaka, Bangladesh </span>
-							</div>
-						</div>
-						
-						<div class="row mt-2">
-							<div class="col-lg-12">
-								<ul style="list-style-type:square; text-align: justify">
-									<li>
-										My professional proficiency extends across the entire lifecycle of internet-based solutions,
-										covering design, development, testing, and deployment. I specialize in crafting web APIs, and
-										proprietary software, implementing rigorous data security protocols, and architecting robust
-										technological infrastructures to support these endeavors.
-									</li>
-									<li>
-										I orchestrated the creation of a Video Resume platform, enhancing its capabilities with Video
-										Interview and Live Interview functionalities. Employing cutting-edge technologies including
-										WebRTC, Node.js, Express, and Socket.io, I ensured seamless integration and optimized
-										performance for an enriched user experience.
-									</li>
-									<li>
-										Engaged in the i2i project, focusing on accessibility initiatives.
-									</li>
-									<li>
-										Designed and deployed software solutions for Trend Mark clients, conducting regular
-										inspections and analysis of programs.
-									</li>
-										<b>Core Technical Skills : </b>  
-										<span>
-											Python, Django REST Framework, Github, Classic ASP, MSSQL, Node JS, Web RTC, Socket.io
-										</span>
-								</ul>
-							</div>
-						</div>
-						
-					</div>
-
-					<div class="resume-item">
-						<div class="row">
-							<div class="col-lg-9">
-								<h4> Jr. Software Engineer </h4>
-							</div>
-							<div class="col-lg-3" style="text-align: right">
-								<span class="font-italic" style="color:#bb6505"> <b>Jan 1, 2018 – Jun 20, 2018 </b></span>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-9">
-								<h4> Piistech </h4>
-							</div>
-							<div class="col-lg-3" style="text-align: right">
-								<span> Dhaka, Bangladesh </span>
-							</div>
-						</div>
-						
-						<div class="row mt-2">
-							<div class="col-lg-12">
-								<ul style="list-style-type:square; text-align: justify">
-									<li>
-										Proficient in crafting clean, efficient, and maintainable code to meet project requirements.
-									</li>
-									<li>
-										Continuously pursue knowledge and Continuously pursue knowledge and technologies and
-										programming languages.
-									</li>
-									<li>
-										Play an active role in enhancing software development processes and tools through ongoing
-										contributions.
-									</li>
-										<b>Core Technical Skills : </b>  
-										<span>
-											ASP.Net, PostgreSQL, MySQL, MSSQL, Github, jQuery, Ajax, JavaScript 
-										</span>
-								</ul>
-							</div>
-						</div>
-						
-					</div>
-					
-					<div class="resume-item">
-						<div class="row">
-							<div class="col-lg-9">
-								<h4> Internship (Software Quality Assurance Engineer) </h4>
-							</div>
-							<div class="col-lg-3" style="text-align: right">
-								<span class="font-italic" style="color:#bb6505"> <b>Nov 2016 - Jan 2017 </b></span>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-9">
-								<h4> Tekarsh </h4>
-							</div>
-							<div class="col-lg-3" style="text-align: right">
-								<span> Dhaka, Bangladesh </span>
-							</div>
-						</div>
-						
-						<div class="row mt-2">
-							<div class="col-lg-12">
-								<ul style="list-style-type:square; text-align: justify">
-									<li>
-										Assist in creating test plans based on project requirements and specifications. Execute test cases, report defects, and verify fixes.
-									</li>
-									<li>
-										Learn and apply various testing techniques such as functional testing, regression testing, and integration testing.
-									</li>
-									<li>
-										Gain exposure to automation testing tools and frameworks. Write automated test scripts and participate in test automation activities.
-									</li>
-										<b>Core Technical Skills : </b>  
-										<span>
-											Selenium, Automation, Manual Testing 
-										</span>
-								</ul>
-							</div>
-						</div>
-						
-					</div>
-					<hr style="margin-top:20px; margin-bottom:3px; color: #212529;">
 				</div>
+
+				<div class="timeline-item">
+					<span class="timeline-dot"></span>
+					<div class="timeline-card">
+						<div class="timeline-card-head">
+							<div>
+								<h4 class="timeline-role">Software Engineer</h4>
+								<span class="timeline-company"><i class="fa fa-building"></i>upay | উপায় (UCB Fintech Company Limited) &middot; Dhaka, Bangladesh</span>
+							</div>
+							<span class="date-pill">July 12, 2021 &ndash; April 30, 2023</span>
+						</div>
+
+						<ul class="timeline-list">
+							<li>
+								Specializing as a software engineer, my primary endeavor is to innovate within the realm of
+								digital financial solutions, with a particular emphasis on the Upay app. I am committed to
+								delivering high-performance, secure, and intuitive software, fostering collaboration across teams
+								to drive continuous improvement and user-centric design.
+							</li>
+							<li>
+								I am responsible for designing and maintaining USSD services tailored for feature phone users,
+								collaborating closely with telecom giants like Base Migration and 121 Recharge with GP,
+								Banglalink, Robi/Airtel. By forging strong partnerships with these industry leaders, I ensure the
+								seamless integration and continuous improvement of our offerings.
+							</li>
+							<li>
+								I am spearheading the development of an ISP Aggregator system for facilitating bill payments
+								for Internet Service Providers (ISPs), utilizing Golang as the primary programming language.
+								This initiative involves creating a robust platform to streamline and optimize the bill payment
+								process for ISPs, contributing to operational efficiency and customer satisfaction within the
+								telecommunications industry.
+							</li>
+							<li>
+								Employing Golang, Python, Django, Redis, PostgreSQL, GitLab, GitHub, Docker, and other
+								cutting-edge platforms, I specialize in integrating third-party APIs seamlessly.
+							</li>
+						</ul>
+
+						<div class="tech-chip-row">
+							<span class="tech-chip-label">Core Technical Skills</span>
+							<span class="chip">Python</span>
+							<span class="chip">Django</span>
+							<span class="chip">Django REST Framework</span>
+							<span class="chip">Postgres</span>
+							<span class="chip">Cassandra</span>
+							<span class="chip">Golang</span>
+							<span class="chip">Chi</span>
+							<span class="chip">Gin</span>
+							<span class="chip">Pandas</span>
+							<span class="chip">Jira</span>
+							<span class="chip">NumPy</span>
+							<span class="chip">Telco</span>
+							<span class="chip">Docker</span>
+							<span class="chip">USSD</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="timeline-item">
+					<span class="timeline-dot"></span>
+					<div class="timeline-card">
+						<div class="timeline-card-head">
+							<div>
+								<h4 class="timeline-role">Software Engineer (Promoted: Asst. Manager)</h4>
+								<span class="timeline-company"><i class="fa fa-building"></i>Bdjobs.com Limited &middot; Dhaka, Bangladesh</span>
+							</div>
+							<span class="date-pill">Aug 1, 2018 &ndash; July 09, 2021</span>
+						</div>
+
+						<ul class="timeline-list">
+							<li>
+								My professional proficiency extends across the entire lifecycle of internet-based solutions,
+								covering design, development, testing, and deployment. I specialize in crafting web APIs, and
+								proprietary software, implementing rigorous data security protocols, and architecting robust
+								technological infrastructures to support these endeavors.
+							</li>
+							<li>
+								I orchestrated the creation of a Video Resume platform, enhancing its capabilities with Video
+								Interview and Live Interview functionalities. Employing cutting-edge technologies including
+								WebRTC, Node.js, Express, and Socket.io, I ensured seamless integration and optimized
+								performance for an enriched user experience.
+							</li>
+							<li>
+								Engaged in the i2i project, focusing on accessibility initiatives.
+							</li>
+							<li>
+								Designed and deployed software solutions for Trend Mark clients, conducting regular
+								inspections and analysis of programs.
+							</li>
+						</ul>
+
+						<div class="tech-chip-row">
+							<span class="tech-chip-label">Core Technical Skills</span>
+							<span class="chip">Python</span>
+							<span class="chip">Django REST Framework</span>
+							<span class="chip">Github</span>
+							<span class="chip">Classic ASP</span>
+							<span class="chip">MSSQL</span>
+							<span class="chip">Node JS</span>
+							<span class="chip">Web RTC</span>
+							<span class="chip">Socket.io</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="timeline-item">
+					<span class="timeline-dot"></span>
+					<div class="timeline-card">
+						<div class="timeline-card-head">
+							<div>
+								<h4 class="timeline-role">Jr. Software Engineer</h4>
+								<span class="timeline-company"><i class="fa fa-building"></i>Piistech &middot; Dhaka, Bangladesh</span>
+							</div>
+							<span class="date-pill">Jan 1, 2018 &ndash; Jun 20, 2018</span>
+						</div>
+
+						<ul class="timeline-list">
+							<li>
+								Proficient in crafting clean, efficient, and maintainable code to meet project requirements.
+							</li>
+							<li>
+								Continuously pursue knowledge and technologies and programming languages.
+							</li>
+							<li>
+								Play an active role in enhancing software development processes and tools through ongoing
+								contributions.
+							</li>
+						</ul>
+
+						<div class="tech-chip-row">
+							<span class="tech-chip-label">Core Technical Skills</span>
+							<span class="chip">ASP.Net</span>
+							<span class="chip">PostgreSQL</span>
+							<span class="chip">MySQL</span>
+							<span class="chip">MSSQL</span>
+							<span class="chip">Github</span>
+							<span class="chip">jQuery</span>
+							<span class="chip">Ajax</span>
+							<span class="chip">JavaScript</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="timeline-item">
+					<span class="timeline-dot"></span>
+					<div class="timeline-card">
+						<div class="timeline-card-head">
+							<div>
+								<h4 class="timeline-role">Internship (Software Quality Assurance Engineer)</h4>
+								<span class="timeline-company"><i class="fa fa-building"></i>Tekarsh &middot; Dhaka, Bangladesh</span>
+							</div>
+							<span class="date-pill">Nov 2016 &ndash; Jan 2017</span>
+						</div>
+
+						<ul class="timeline-list">
+							<li>
+								Assist in creating test plans based on project requirements and specifications. Execute test cases, report defects, and verify fixes.
+							</li>
+							<li>
+								Learn and apply various testing techniques such as functional testing, regression testing, and integration testing.
+							</li>
+							<li>
+								Gain exposure to automation testing tools and frameworks. Write automated test scripts and participate in test automation activities.
+							</li>
+						</ul>
+
+						<div class="tech-chip-row">
+							<span class="tech-chip-label">Core Technical Skills</span>
+							<span class="chip">Selenium</span>
+							<span class="chip">Automation</span>
+							<span class="chip">Manual Testing</span>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</section>
@@ -684,58 +702,58 @@
 	<!-- CERTIFICATIONS SECTION -->
 	<section class="class section" id="class">
 
-		<div class="container text-center my-3">
-			<h3 class="mb-3">
-				<span class="heading-title-home" style="text-transform: uppercase;">Courses & Certificates</span>
-			</h3>
-			<div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
-				<div class="carousel-inner w-100" role="listbox">
-					<div class="carousel-item active">
-						<div class="col-4 float-left">
-							<img class="img-fluid" src="images/cr/CICD_Course_Certificate.jpg" alt="CICD_Course_Certificate">
-						</div>
-						<div class="col-4 float-left">
-							<img class="img-fluid" src="images/cr/BITM Certificate.jpg" alt="BITM Certificate">
-						</div>
-						<div class="col-4 float-left">
-							<img class="img-fluid" src="images/cr/Cisco Networking Academy Certificate.jpg" alt="Cisco Networking Academy Certificate">
-						</div>
-					</div>
+		<div class="container" data-aos="fade-up">
+			<span class="section-eyebrow">Continuous Learning</span>
+			<h3 class="section-title">Courses &amp; Certificates</h3>
 
-					<div class="carousel-item">
-						<div class="col-4 float-left">
-							<img class="img-fluid" src="images/cr/ICT Certificate.jpg" alt="ICT Certificate">
-						</div>
-						<div class="col-4 float-left">
-							<img class="img-fluid" src="images/cr/HTML.jpg" alt="HTML">
-						</div>
-						<div class="col-4 float-left">
-							<img class="img-fluid" src="images/cr/Upay certificate.jpg" alt="Upay certificate">
-						</div>
+			<div class="cert-grid">
+				<a class="cert-card" href="images/cr/CICD_Course_Certificate.jpg" target="_blank" rel="noopener">
+					<div class="cert-thumb">
+						<img src="images/cr/CICD_Course_Certificate.jpg" alt="CI/CD Course Certificate">
 					</div>
-					
-					<div class="carousel-item">
-						<div class="col-4 float-left">
-							<img class="img-fluid" src="images/cr/Go Programming Language.png" alt="Go Programming Language">
-						</div>
-						<div class="col-4 float-left">
-							<img class="img-fluid" src="images/cr/Upay certificate.jpg" alt="Upay certificate">
-						</div>
-						<div class="col-4 float-left">
-							<img class="img-fluid" src="images/cr/BITM Certificate.jpg" alt="BITM Certificate">
-						</div>
-					</div>
-
-					<!-- Add more carousel items here if needed -->
-					
-				</div>
-				<a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
+					<div class="cert-caption">CI/CD Course <i class="fa fa-external-link"></i></div>
 				</a>
-				<a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
+
+				<a class="cert-card" href="images/cr/BITM Certificate.jpg" target="_blank" rel="noopener">
+					<div class="cert-thumb">
+						<img src="images/cr/BITM Certificate.jpg" alt="BITM Certificate">
+					</div>
+					<div class="cert-caption">BITM Certificate <i class="fa fa-external-link"></i></div>
+				</a>
+
+				<a class="cert-card" href="images/cr/Cisco Networking Academy Certificate.jpg" target="_blank" rel="noopener">
+					<div class="cert-thumb">
+						<img src="images/cr/Cisco Networking Academy Certificate.jpg" alt="Cisco Networking Academy Certificate">
+					</div>
+					<div class="cert-caption">Cisco Networking Academy <i class="fa fa-external-link"></i></div>
+				</a>
+
+				<a class="cert-card" href="images/cr/ICT Certificate.jpg" target="_blank" rel="noopener">
+					<div class="cert-thumb">
+						<img src="images/cr/ICT Certificate.jpg" alt="ICT Certificate">
+					</div>
+					<div class="cert-caption">ICT Certificate <i class="fa fa-external-link"></i></div>
+				</a>
+
+				<a class="cert-card" href="images/cr/HTML.jpg" target="_blank" rel="noopener">
+					<div class="cert-thumb">
+						<img src="images/cr/HTML.jpg" alt="HTML Certificate">
+					</div>
+					<div class="cert-caption">HTML Certificate <i class="fa fa-external-link"></i></div>
+				</a>
+
+				<a class="cert-card" href="images/cr/Upay certificate.jpg" target="_blank" rel="noopener">
+					<div class="cert-thumb">
+						<img src="images/cr/Upay certificate.jpg" alt="Upay Certificate">
+					</div>
+					<div class="cert-caption">Upay Certificate <i class="fa fa-external-link"></i></div>
+				</a>
+
+				<a class="cert-card" href="images/cr/Go Programming Language.png" target="_blank" rel="noopener">
+					<div class="cert-thumb">
+						<img src="images/cr/Go Programming Language.png" alt="Go Programming Language Certificate">
+					</div>
+					<div class="cert-caption">Go Programming Language <i class="fa fa-external-link"></i></div>
 				</a>
 			</div>
 		</div>
@@ -747,34 +765,30 @@
 	<footer class="site-footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-md-12 text-center text-md-left mb-3 mb-md-0">
-					<div class="copyright-section">
-						<p class="copyright-text">
-							<span class="footer-contact-infos">Copyright ©</span> <span class="copy-right-signature" style="font-style: italic;">Md. Faisal Porag</span>
-						</p>
-					</div>
+				<div class="col-lg-4 col-md-12 mb-4 mb-lg-0 text-center text-lg-left">
+					<div class="footer-brand">Md. Faisal Porag</div>
+					<p class="footer-tagline">Sr. Software Engineer, Lead building reliable, scalable backend systems for travel &amp; fintech products.</p>
+					<ul class="social-icon-premium justify-content-center justify-content-lg-start">
+						<li><a href="https://github.com/faisal-porag" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa fa-github"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/faisal-porag-fpdev/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
 				</div>
 
-				<div class="col-lg-3 col-md-6">
-					<div class="address-section footer-contact-infos text-center text-md-left">
-						<h5>Address Information</h5>
-						<div>
-							<span>Present Address</span><br>
-							<span>Dhaka, Bangladesh</span>
-						</div>
-					</div>
+				<div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+					<div class="footer-heading">Address Information</div>
+					<div class="footer-row"><i class="fa fa-map-marker"></i> Present Address: Dhaka, Bangladesh</div>
 				</div>
 
-				<div class="col-lg-3 col-md-6">
-					<div class="contact-section footer-contact-infos text-center text-md-left">
-						<h5>Contact Information</h5>
-						<p>
-							<i class="fot fa fa-envelope-o mr-1"></i> <span>Porag2619@gmail.com</span><br>
-							<i class="fot fa fa-phone mr-1"></i> <span>+88 01617-392369</span> <br>
-							<i class="fot fa fa-phone mr-1"></i> <span>+88 01622-310751</span>
-						</p>
-					</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="footer-heading">Contact Information</div>
+					<div class="footer-row"><i class="fa fa-envelope-o"></i> porag2619@gmail.com</div>
+					<div class="footer-row"><i class="fa fa-phone"></i> +88 01617-392369</div>
+					<div class="footer-row"><i class="fa fa-phone"></i> +88 01622-310751</div>
 				</div>
+			</div>
+
+			<div class="footer-bottom">
+				Copyright &copy; <span class="copy-right-signature">Md. Faisal Porag</span>
 			</div>
 		</div>
 	</footer>
