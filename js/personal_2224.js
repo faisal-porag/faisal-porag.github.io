@@ -6,10 +6,19 @@
       $(".navbar-collapse").collapse('hide');
     });
 
+    // NAV SCROLL STYLE
+    var $mainNav = $('#mainNav');
+    function toggleNavScrolled() {
+      $mainNav.toggleClass('is-scrolled', $(window).scrollTop() > 40);
+    }
+    toggleNavScrolled();
+    $(window).on('scroll', toggleNavScrolled);
+
     // AOS ANIMATION
     AOS.init({
       disable: 'mobile',
       duration: 800,
+      once: true,
       anchorPlacement: 'center-bottom'
     });
 
