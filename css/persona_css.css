@@ -904,6 +904,15 @@ h1.prof-font .gradient-text {
 	margin-right: 0.35rem;
 }
 
+.timeline-company-logo {
+	width: 75px;
+	height: auto;
+	object-fit: contain;
+	margin-right: 0.5rem;
+	vertical-align: -8px;
+	border-radius: 4px;
+}
+
 .date-pill {
 	flex: 0 0 auto;
 	display: inline-block;
